@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" fill="none">
+  <rect width="160" height="120" rx="16" fill="#12121a"/>
+  <rect x="22" y="24" width="88" height="60" rx="10" fill="#1c2333" stroke="#3d4a66" stroke-width="2"/>
+  <circle cx="34" cy="36" r="3" fill="#64748b"/>
+  <circle cx="44" cy="36" r="3" fill="#64748b"/>
+  <circle cx="54" cy="36" r="3" fill="#64748b"/>
+  <rect x="32" y="48" width="40" height="4" rx="2" fill="#475569"/>
+  <rect x="32" y="58" width="56" height="4" rx="2" fill="#334155"/>
+  <rect x="32" y="68" width="28" height="4" rx="2" fill="#475569"/>
+  <rect x="98" y="62" width="42" height="28" rx="8" fill="#2563eb"/>
+  <text x="119" y="80" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="11" font-weight="700">API</text>
+</svg>

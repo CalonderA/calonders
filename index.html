@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Александр Андросенко | Frontend & Backend Developer</title>
+    <meta
+      name="description"
+      content="Портфолио Александра Андросенко: сайты, интерфейсы, backend, реальные проекты и контакты."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <div class="page-glow page-glow-left" aria-hidden="true"></div>
+    <div class="page-glow page-glow-right" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-logo" href="#hero" aria-label="На главную">A<span>.</span></a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Основная навигация">
+          <a href="#hero" class="is-active">Главная</a>
+          <a href="#about">Обо мне</a>
+          <a href="#services">Услуги</a>
+          <a href="#projects">Портфолио</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+
+        <a class="header-cta" href="#contact">Связаться со мной</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="hero-greeting reveal" data-reveal-delay="0">Привет, меня зовут</p>
+            <h1 class="reveal" data-reveal-delay="80"><span class="hero-name">Александр</span></h1>
+            <p class="hero-role reveal" data-reveal-delay="160">
+              Я создаю современные сайты и веб-приложения
+            </p>
+            <p class="hero-lead reveal" data-reveal-delay="240">
+              Разрабатываю быстрые, удобные и стильные решения, которые помогают бизнесу
+              расти и выделяться в цифровом пространстве.
+            </p>
+            <div class="hero-actions reveal" data-reveal-delay="320">
+              <a class="button button-solid" href="#projects">Смотреть работы →</a>
+              <a class="button button-ghost" href="#about">Обо мне</a>
+            </div>
+            <div class="hero-stats reveal" data-reveal-delay="400">
+              <div>
+                <strong>5+</strong>
+                <span>Лет опыта</span>
+              </div>
+              <div>
+                <strong>30+</strong>
+                <span>Проектов</span>
+              </div>
+              <div>
+                <strong>15+</strong>
+                <span>Довольных клиентов</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container services-strip" id="services">
+          <article class="service-card reveal" data-reveal-delay="0">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M8 8 4 12l4 4M16 8l4 4-4 4M14 4l-4 16" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+            <h3>Веб-разработка</h3>
+            <p>Создаю современные сайты и веб-приложения с чистым кодом и удобной структурой.</p>
+          </article>
+          <article class="service-card reveal" data-reveal-delay="80">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 16l8-12 3 5 5 1-8 12-3-5-5-1Z" stroke-linejoin="round" />
+                <path d="M9 15l2 3" stroke-linecap="round" />
+              </svg>
+            </span>
+            <h3>Дизайн</h3>
+            <p>Продумываю визуал, типографику и атмосферу так, чтобы интерфейс выглядел цельно.</p>
+          </article>
+          <article class="service-card reveal" data-reveal-delay="160">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 15c3-1 5-5 5-9 3 1 6 4 7 8 2 0 4 2 4 4-4 1-8-1-11-4-2 2-4 4-5 7 0-2 0-4 0-6Z" stroke-linejoin="round" />
+              </svg>
+            </span>
+            <h3>Оптимизация</h3>
+            <p>Ускоряю загрузку, улучшаю SEO и делаю проект стабильным в реальной работе.</p>
+          </article>
+          <article class="service-card reveal" data-reveal-delay="240">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="7" y="3" width="10" height="18" rx="2" />
+                <path d="M11 17h2" stroke-linecap="round" />
+              </svg>
+            </span>
+            <h3>Адаптивность</h3>
+            <p>Собираю интерфейсы, которые одинаково удобны на телефоне, планшете и десктопе.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Обо мне</p>
+            <h2>Собираю интерфейсы и backend так, чтобы проект ощущался цельным с первого экрана.</h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-story reveal">
+              <p>
+                Я Александр Андросенко, разработчик из Смоленска. Работаю на стыке frontend и
+                backend: люблю, когда сайт не просто работает, а еще и визуально держит внимание.
+              </p>
+              <p>
+                Мне нравится делать проекты, в которых форма и логика не спорят друг с другом:
+                аккуратный интерфейс, нормальная архитектура, понятный сценарий для пользователя.
+              </p>
+            </article>
+
+            <div class="stats-grid">
+              <article class="stat-card reveal">
+                <span class="stat-order">01</span>
+                <span class="stat-value">5+</span>
+                <span class="stat-label">лет в разработке и продуктовых задачах</span>
+              </article>
+              <article class="stat-card reveal">
+                <span class="stat-order">02</span>
+                <span class="stat-value">2</span>
+                <span class="stat-label">основных направления: frontend и backend</span>
+              </article>
+              <article class="stat-card reveal">
+                <span class="stat-order">03</span>
+                <span class="stat-value">10+</span>
+                <span class="stat-label">технологий в постоянном рабочем стеке</span>
+              </article>
+              <article class="stat-card reveal">
+                <span class="stat-order">04</span>
+                <span class="stat-value">30 ч</span>
+                <span class="stat-label">на запуск ИИ-проекта «ТурКод»</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section journey-section" id="journey">
+        <div class="container">
+          <div class="journey-intro reveal">
+            <div class="journey-intro-copy">
+              <p class="eyebrow">Обучение и опыт</p>
+              <h2>Образование и профессиональный путь</h2>
+              <p class="section-note">
+                От обучения до реальных продуктов — собираю опыт шаг за шагом и продолжаю
+                расти в разработке.
+              </p>
+            </div>
+          </div>
+
+          <div class="journey-stage reveal" data-glow-surface>
+            <div class="timeline">
+              <article class="timeline-item is-education" data-journey-item>
+                <div class="timeline-side">
+                  <span class="timeline-step">01</span>
+                  <span class="timeline-badge">Образование</span>
+                </div>
+                <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot"></span></div>
+                <div class="timeline-card">
+                  <div class="timeline-card-body">
+                    <span class="timeline-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 9.5 12 5l9 4.5L12 14 3 9.5Z"/><path d="M7 12v4.5C9 18 12 19 12 19s3-1 5-2.5V12"/><path d="M21 10v6"/></svg>
+                    </span>
+                    <div class="timeline-copy">
+                      <span class="timeline-date">Обучение и база</span>
+                      <h3>СОТА, КОД, КодБудущего</h3>
+                      <p>Информационные системы, backend-направление, Android и постепенный переход к продуктовой разработке.</p>
+                      <div class="timeline-tags">
+                        <span>Обучение</span>
+                        <span>Backend</span>
+                        <span>Android</span>
+                      </div>
+                    </div>
+                    <div class="timeline-visual">
+                      <img src="./illustrations/edu.svg" alt="" width="160" height="120" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item" data-journey-item>
+                <div class="timeline-side">
+                  <span class="timeline-step">02</span>
+                  <span class="timeline-badge">Опыт</span>
+                </div>
+                <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot"></span></div>
+                <div class="timeline-card">
+                  <div class="timeline-card-body">
+                    <span class="timeline-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+                    </span>
+                    <div class="timeline-copy">
+                      <span class="timeline-date">Mar 2025</span>
+                      <h3>Code-edu.ru — Backend Developer</h3>
+                      <p>Развитие backend-части сервиса, логики функций и устойчивой технической основы проекта.</p>
+                      <div class="timeline-tags">
+                        <span>API</span>
+                        <span>Сервисы</span>
+                      </div>
+                    </div>
+                    <div class="timeline-visual">
+                      <img src="./illustrations/api.svg" alt="" width="160" height="120" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item" data-journey-item>
+                <div class="timeline-side">
+                  <span class="timeline-step">03</span>
+                  <span class="timeline-badge">Опыт</span>
+                </div>
+                <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot"></span></div>
+                <div class="timeline-card">
+                  <div class="timeline-card-body">
+                    <span class="timeline-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h16v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/><path d="M8 12h8M8 16h5"/></svg>
+                    </span>
+                    <div class="timeline-copy">
+                      <span class="timeline-date">Sept 2024 — May 2025</span>
+                      <h3>Дело по Плечу — фулстек-разработчик</h3>
+                      <p>Разработка frontend и backend-части, сборка сценариев продукта и работа с пользовательской логикой.</p>
+                      <div class="timeline-tags">
+                        <span>Fullstack</span>
+                        <span>Продукт</span>
+                      </div>
+                    </div>
+                    <div class="timeline-visual">
+                      <img src="./illustrations/ui.svg" alt="" width="160" height="120" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item" data-journey-item>
+                <div class="timeline-side">
+                  <span class="timeline-step">04</span>
+                  <span class="timeline-badge">Опыт</span>
+                </div>
+                <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot"></span></div>
+                <div class="timeline-card">
+                  <div class="timeline-card-body">
+                    <span class="timeline-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"/><path d="M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg>
+                    </span>
+                    <div class="timeline-copy">
+                      <span class="timeline-date">Sept 2025</span>
+                      <h3>КОД — Backend разработчик</h3>
+                      <p>Углубление в серверную разработку, модели данных, API и проектирование прикладной логики.</p>
+                      <div class="timeline-tags">
+                        <span>Backend</span>
+                        <span>Данные</span>
+                      </div>
+                    </div>
+                    <div class="timeline-visual">
+                      <img src="./illustrations/db.svg" alt="" width="160" height="120" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="timeline-item" data-journey-item>
+                <div class="timeline-side">
+                  <span class="timeline-step">05</span>
+                  <span class="timeline-badge">Сейчас</span>
+                </div>
+                <div class="timeline-rail" aria-hidden="true"><span class="timeline-dot"></span></div>
+                <div class="timeline-card">
+                  <div class="timeline-card-body">
+                    <span class="timeline-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 15c3-1 5-5 5-9 3 1 6 4 7 8 2 0 4 2 4 4-4 1-8-1-11-4-2 2-4 4-5 7 0-2 0-4 0-6Z"/></svg>
+                    </span>
+                    <div class="timeline-copy">
+                      <span class="timeline-date">May 2026</span>
+                      <h3>Стажировка КОД — фулстек-разработчик</h3>
+                      <p>React, C#, LLM и продуктовый подход к задачам, где важны скорость и польза результата.</p>
+                      <div class="timeline-tags">
+                        <span>React</span>
+                        <span>C#</span>
+                        <span>LLM</span>
+                      </div>
+                    </div>
+                    <div class="timeline-visual">
+                      <img src="./illustrations/stack.svg" alt="" width="160" height="120" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="journey-cta">
+              <span class="journey-cta-icon" aria-hidden="true">↗</span>
+              <p>Всегда ищу новые вызовы и возможности для роста</p>
+              <a class="button button-solid" href="#contact">Написать мне →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent" id="skills">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Навыки</p>
+            <h2>Стек, с которым можно и быстро собрать MVP, и аккуратно развивать проект дальше.</h2>
+          </div>
+
+          <div class="skills-layout">
+            <article class="skill-group reveal">
+              <span class="group-label">Языки</span>
+              <div class="tag-cloud">
+                <span>Kotlin</span>
+                <span>Java</span>
+                <span>C#</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>SQL</span>
+                <span>HTML</span>
+                <span>CSS / SCSS</span>
+              </div>
+            </article>
+
+            <article class="skill-group reveal">
+              <span class="group-label">Frontend</span>
+              <div class="tag-cloud">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Framer Motion</span>
+                <span>Redux</span>
+                <span>Storybook</span>
+                <span>Framework7</span>
+                <span>Backbone.js</span>
+                <span>Marionette.js</span>
+              </div>
+            </article>
+
+            <article class="skill-group reveal">
+              <span class="group-label">Backend</span>
+              <div class="tag-cloud">
+                <span>PostgreSQL</span>
+                <span>MySQL</span>
+                <span>MongoDB</span>
+                <span>Redis</span>
+                <span>Docker</span>
+                <span>REST API</span>
+              </div>
+            </article>
+
+            <article class="skill-group reveal">
+              <span class="group-label">Инструменты</span>
+              <div class="tag-cloud">
+                <span>VS Code</span>
+                <span>Node.js</span>
+                <span>Git</span>
+                <span>Sourcetree</span>
+                <span>Android Studio</span>
+                <span>IntelliJ IDEA</span>
+                <span>Figma</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Проекты</p>
+            <h2>Не просто список, а работы, которые можно сразу увидеть глазами.</h2>
+          </div>
+
+          <article class="featured-project-card reveal">
+            <div class="featured-project-media">
+              <img src="./скрины/Дело по плечу.jpg" alt="Скриншот проекта Дело по плечу" loading="lazy" />
+            </div>
+            <div class="featured-project-copy">
+              <span class="group-label">Избранный проект</span>
+              <h3>«Дело по плечу» — мобильный навигатор по миру профессий</h3>
+              <p>
+                Продукт для подростков и студентов: профориентация, планирование, привычки и анонсы
+                активностей в одном приложении.
+              </p>
+              <ul class="project-list">
+                <li>Разработал модели и API для работы с ивентами</li>
+                <li>Сделал фильтрацию, поиск, избранное и напоминания</li>
+                <li>Собрал регистрацию на мероприятия и важные пользовательские сценарии</li>
+              </ul>
+              <div class="tag-cloud">
+                <span>Java</span>
+                <span>Kotlin</span>
+                <span>Docker</span>
+                <span>PostgreSQL</span>
+              </div>
+            </div>
+          </article>
+
+          <div class="project-gallery">
+            <article class="project-shot reveal">
+              <div class="project-shot-media">
+                <img src="./скрины/туркод.webp" alt="Скриншот проекта ТурКод" loading="lazy" />
+              </div>
+              <div class="project-shot-body">
+                <span class="card-date">Собственный проект</span>
+                <h3>ТурКод</h3>
+                <p>Персональный ИИ-турагент в формате чат-бота. Разработан примерно за 30 часов и получил хороший отклик.</p>
+              </div>
+            </article>
+
+            <article class="project-shot reveal">
+              <div class="project-shot-media">
+                <img src="./скрины/юридичческие услуги.png" alt="Скриншот сайта юридических услуг" loading="lazy" />
+              </div>
+              <div class="project-shot-body">
+                <span class="card-date">Коммерческий сайт</span>
+                <h3>Pravo Smol</h3>
+                <p>Разрабатывал сайт юридических услуг в Смоленске: структура, визуальная подача и удобная подача информации для клиента.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contrast" id="reviews">
+        <div class="container">
+          <div class="section-heading reveal reviews-heading">
+            <p class="eyebrow">Отзывы клиентов</p>
+            <h2>Что говорят мои клиенты</h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card reveal" data-reveal-delay="0">
+              <div class="review-card-top">
+                <div class="review-stars" aria-label="5 из 5">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <span class="review-quote" aria-hidden="true">”</span>
+              </div>
+              <p>Быстро вникает в задачу и не теряет качество, даже когда нужно одновременно думать про интерфейс, логику и сроки.</p>
+              <div class="review-author">
+                <span class="review-avatar" style="--avatar: #7b5cff">АК</span>
+                <span>
+                  <strong>Анна Ковалева</strong>
+                  <small>Директор, smm-агентство</small>
+                </span>
+              </div>
+            </article>
+
+            <article class="review-card reveal" data-reveal-delay="100">
+              <div class="review-card-top">
+                <div class="review-stars" aria-label="5 из 5">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <span class="review-quote" aria-hidden="true">”</span>
+              </div>
+              <p>Александр сделал нам сайт — всё чётко, быстро и красиво. Очень советуем, спасибо ему огромное!</p>
+              <div class="review-author">
+                <span class="review-avatar">
+                  <img src="./avatars/dmitry.png" alt="Дмитрий" width="46" height="46" />
+                </span>
+                <span>
+                  <strong>Дмитрий</strong>
+                  <small>Клиент, советует Александра</small>
+                </span>
+              </div>
+            </article>
+
+            <article class="review-card reveal" data-reveal-delay="200">
+              <div class="review-card-top">
+                <div class="review-stars" aria-label="5 из 5">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <span class="review-quote" aria-hidden="true">”</span>
+              </div>
+              <p>Александр разрабатывал приложение «Дело по плечу» — собрал backend, сценарии и логику так, что продукт реально удобно пользоваться. Рекомендую!</p>
+              <div class="review-author">
+                <span class="review-avatar">
+                  <img src="./avatars/delo.png" alt="Участник проекта Дело по плечу" width="46" height="46" />
+                </span>
+                <span>
+                  <strong>Александр</strong>
+                  <small>Проект «Дело по плечу»</small>
+                </span>
+              </div>
+            </article>
+          </div>
+
+          <div class="reviews-cta reveal">
+            <div class="reviews-cta-copy">
+              <h3>Хотите оставить отзыв?</h3>
+              <p>Напишите коротко, как прошла работа — это поможет другим и мне стать лучше.</p>
+            </div>
+            <div class="reviews-cta-actions">
+              <button class="button button-solid" type="button" data-review-open>Оставить отзыв →</button>
+              <a class="button button-ghost" href="#contact">Написать мне</a>
+            </div>
+          </div>
+
+          <div class="tech-logos reveal" aria-label="Инструменты и платформы">
+            <div class="tech-logo">
+              <img src="./logos/wordpress.svg" alt="" width="28" height="28" />
+              <span>WordPress</span>
+            </div>
+            <div class="tech-logo">
+              <img src="./logos/shopify.svg" alt="" width="28" height="28" />
+              <span>shopify</span>
+            </div>
+            <div class="tech-logo">
+              <img src="./logos/tilda.svg" alt="" width="28" height="28" />
+              <span>Tilda</span>
+            </div>
+            <div class="tech-logo">
+              <img src="./logos/webflow.svg" alt="" width="28" height="28" />
+              <span>Webflow</span>
+            </div>
+            <div class="tech-logo">
+              <img src="./logos/figma.svg" alt="" width="28" height="28" />
+              <span>Figma</span>
+            </div>
+            <div class="tech-logo">
+              <img src="./logos/code.svg" alt="" width="28" height="28" />
+              <span>вёрстка</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="contact-top reveal">
+            <div class="contact-top-copy">
+              <p class="eyebrow">Контакты</p>
+              <h2>Давай обсудим задачу за кофе — или хотя бы за одно сообщение</h2>
+              <p>
+                Есть идея сайта, продукта или просто вопрос по разработке?
+                Пиши в Telegram или оставь заявку — отвечу и разберёмся, что делать дальше.
+              </p>
+            </div>
+
+            <figure class="code-quote" data-quote-box role="button" tabindex="0" aria-label="Следующая цитата">
+              <div class="code-quote-bar" aria-hidden="true">
+                <span></span><span></span><span></span>
+                <em>dev wisdom</em>
+              </div>
+              <span class="code-quote-mark" aria-hidden="true">// quote</span>
+              <blockquote>
+                <p data-quote-text>«Работает? Не трогай.»</p>
+              </blockquote>
+              <figcaption data-quote-author>— древняя мудрость разработчиков</figcaption>
+              <div class="code-quote-dots" aria-hidden="true">
+                <span class="is-active"></span><span></span><span></span><span></span><span></span>
+              </div>
+            </figure>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-links reveal">
+              <p class="contact-links-title">Быстрая связь</p>
+              <div class="contact-cards">
+                <a class="contact-card" href="https://t.me/calonder" target="_blank" rel="noreferrer">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M21.93 4.57a1 1 0 0 0-1.06-.18L3.71 11.38a1 1 0 0 0 .09 1.88l4.13 1.34 1.5 4.7a1 1 0 0 0 1.8.26l2.32-3.18 4.33 3.24a1 1 0 0 0 1.58-.61L22 5.49a1 1 0 0 0-.07-.92ZM10.8 14.79l-.48 2.36-.82-2.56 8.04-6.8-6.74 7Z"/></svg>
+                  </span>
+                  <span>
+                    <strong>Telegram</strong>
+                    <small>@calonder</small>
+                  </span>
+                </a>
+
+                <a class="contact-card" href="https://github.com/calonderA" target="_blank" rel="noreferrer">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.59 2 12.24c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .08 1.53 1.05 1.53 1.05.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.36 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.93-2.35 4.8-4.58 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.24C22 6.59 17.52 2 12 2Z"/></svg>
+                  </span>
+                  <span>
+                    <strong>GitHub</strong>
+                    <small>github.com/calonderA</small>
+                  </span>
+                </a>
+
+                <a class="contact-card" href="mailto:alexander@calonder.ru">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 6h16a2 2 0 0 1 2 2v.35l-10 5.96L2 8.35V8a2 2 0 0 1 2-2Zm18 4.68V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.32l9.49 5.65a1 1 0 0 0 1.02 0L22 10.68Z"/></svg>
+                  </span>
+                  <span>
+                    <strong>Email</strong>
+                    <small>alexander@calonder.ru</small>
+                  </span>
+                </a>
+
+                <a class="contact-card" href="https://calonder.ru" target="_blank" rel="noreferrer">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 9.01 9.01 0 0 0-9-9Zm5.92 8h-3.06a15.8 15.8 0 0 0-1.17-4.2A7.03 7.03 0 0 1 17.92 11ZM12 5.05c.82 1.02 1.48 2.53 1.85 4.45h-3.7C10.52 7.58 11.18 6.07 12 5.05ZM5.08 13h3.06c.12 1.52.51 2.93 1.17 4.2A7.03 7.03 0 0 1 5.08 13Zm3.06-2H5.08a7.03 7.03 0 0 1 4.23-4.2A15.8 15.8 0 0 0 8.14 11ZM12 18.95c-.82-1.02-1.48-2.53-1.85-4.45h3.7c-.37 1.92-1.03 3.43-1.85 4.45ZM14.08 13h-4.16a13.9 13.9 0 0 1 0-2h4.16a13.9 13.9 0 0 1 0 2Zm-.39 4.2c.66-1.27 1.05-2.68 1.17-4.2h3.06a7.03 7.03 0 0 1-4.23 4.2Z"/></svg>
+                  </span>
+                  <span>
+                    <strong>Сайт</strong>
+                    <small>calonder.ru</small>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <form class="contact-form reveal" id="contact-form">
+              <p class="form-label">Оставить заявку</p>
+              <p class="form-note">Коротко опиши задачу — я отвечу и предложу следующий шаг.</p>
+              <label>
+                <span>Как к тебе обращаться</span>
+                <input type="text" name="name" placeholder="Например, Андрей" required />
+              </label>
+
+              <label>
+                <span>Контакт для ответа</span>
+                <input type="text" name="contact" placeholder="Telegram, email или телефон" required />
+              </label>
+
+              <label>
+                <span>Что нужно сделать</span>
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Коротко опиши задачу, сроки или идею проекта"
+                  required
+                ></textarea>
+              </label>
+
+              <label class="consent">
+                <input type="checkbox" name="consent" required />
+                <span>Я согласен на обработку персональных данных.</span>
+              </label>
+
+              <button class="button button-solid" type="submit">Отправить заявку →</button>
+              <p class="form-status" id="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-copy">
+          <span class="footer-title">Александр Андросенко</span>
+          <p>Сайты, интерфейсы и backend без перегруза.</p>
+        </div>
+
+        <div class="footer-socials" aria-label="Быстрые ссылки">
+          <a class="footer-icon-link" href="https://github.com/calonderA" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2C6.48 2 2 6.59 2 12.24c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .08 1.53 1.05 1.53 1.05.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.93c.85 0 1.71.12 2.51.36 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.64 1.03 2.76 0 3.93-2.35 4.8-4.58 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.24C22 6.59 17.52 2 12 2Z"></path>
+            </svg>
+          </a>
+          <a class="footer-icon-link" href="https://t.me/calonder" target="_blank" rel="noreferrer" aria-label="Telegram">
+            <svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21.93 4.57a1 1 0 0 0-1.06-.18L3.71 11.38a1 1 0 0 0 .09 1.88l4.13 1.34 1.5 4.7a1 1 0 0 0 1.8.26l2.32-3.18 4.33 3.24a1 1 0 0 0 1.58-.61L22 5.49a1 1 0 0 0-.07-.92ZM10.8 14.79l-.48 2.36-.82-2.56 8.04-6.8-6.74 7Z"></path>
+            </svg>
+          </a>
+          <a class="footer-icon-link" href="https://calonder.ru" target="_blank" rel="noreferrer" aria-label="Сайт">
+            <svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3a9 9 0 1 0 9 9 9.01 9.01 0 0 0-9-9Zm5.92 8h-3.06a15.8 15.8 0 0 0-1.17-4.2A7.03 7.03 0 0 1 17.92 11ZM12 5.05c.82 1.02 1.48 2.53 1.85 4.45h-3.7C10.52 7.58 11.18 6.07 12 5.05ZM5.08 13h3.06c.12 1.52.51 2.93 1.17 4.2A7.03 7.03 0 0 1 5.08 13Zm3.06-2H5.08a7.03 7.03 0 0 1 4.23-4.2A15.8 15.8 0 0 0 8.14 11ZM12 18.95c-.82-1.02-1.48-2.53-1.85-4.45h3.7c-.37 1.92-1.03 3.43-1.85 4.45ZM14.08 13h-4.16a13.9 13.9 0 0 1 0-2h4.16a13.9 13.9 0 0 1 0 2Zm-.39 4.2c.66-1.27 1.05-2.68 1.17-4.2h3.06a7.03 7.03 0 0 1-4.23 4.2Z"></path>
+            </svg>
+          </a>
+          <a class="footer-icon-link" href="mailto:alexander@calonder.ru" aria-label="Почта">
+            <svg class="icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16a2 2 0 0 1 2 2v.35l-10 5.96L2 8.35V8a2 2 0 0 1 2-2Zm18 4.68V16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.32l9.49 5.65a1 1 0 0 0 1.02 0L22 10.68Z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="review-dialog" id="review-dialog" hidden>
+      <div class="review-dialog-backdrop" data-review-close></div>
+      <div class="review-dialog-card" role="dialog" aria-modal="true" aria-labelledby="review-dialog-title">
+        <button class="review-dialog-close" type="button" data-review-close aria-label="Закрыть">×</button>
+        <div class="review-dialog-photo">
+          <img src="./avatars/dobby.png" alt="" width="160" height="160" />
+        </div>
+        <div class="review-dialog-chat">
+          <div class="chat-bubble chat-bubble-left">
+            <p id="review-dialog-title">Секунду… а вы вообще заказывали что-то?</p>
+          </div>
+          <div class="chat-bubble chat-bubble-right">
+            <p>Ну… хотел просто отзыв оставить 👀</p>
+          </div>
+          <div class="chat-bubble chat-bubble-left">
+            <p>Тогда ладно. Пиши в Telegram — там и похвалишь, и задачу кинем, если надо.</p>
+          </div>
+        </div>
+        <div class="review-dialog-actions">
+          <a class="button button-solid" href="https://t.me/calonder" target="_blank" rel="noreferrer">Написать в Telegram →</a>
+          <button class="button button-ghost" type="button" data-review-close>Закрыть</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
